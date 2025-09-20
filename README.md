@@ -11,7 +11,7 @@ Built with Laravel.
 
 ## Setup
 ```bash
-git clone https://github.com/yourname/mobius-backend.git
+git clone https://github.com/Dnl-Semicolon/mobius-backend.git
 cd htdocs/mobius-backend
 cp .env.example .env
 composer install
