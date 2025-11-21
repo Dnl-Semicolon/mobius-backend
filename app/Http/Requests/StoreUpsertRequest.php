@@ -22,6 +22,7 @@ class StoreUpsertRequest extends FormRequest
             'lng'          => ['nullable','numeric','between:-180,180'],
             'timezone'     => ['required','string','max:64'],
             'status'       => ['required','in:active,inactive'],
+            'place_id'     => ['nullable','string','max:255'],
         ];
     }
 }
